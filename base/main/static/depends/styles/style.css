@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.header {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr;
+    align-items: center;
+}
+
+.filters {
+    display: flex;
+    padding: 0;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+.search-bar {
+    width: 70%;
+}
+
+input {
+    border: 0.1;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+.cart>img {
+    width: 80px
+}
+
+.account {
+    text-decoration: none;
+    border-style: none;
+    padding-top: 8px;
+    padding-left: 30px;
+    padding-bottom: 8px;
+    padding-right: 30px;
+    background-color: blue;
+    color: azure;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center
+}
+
+.card {
+    margin-bottom: 40px;
+    
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.authorization-form {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.authorization-text {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.field {
+    margin: 0;
+    height: 37px;
+    width: 70%;
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+
+.problems {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.filter {
+    margin-left: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 12px;
+}
+
+.hide {
+    display: none;
+}
