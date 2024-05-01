@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block title %}
-    Авторизация
+    {{ title }}
 {% endblock %}
 
 {% block content %}
@@ -17,10 +17,10 @@
             </div>
             <input type="submit">
             <div class="problems">
-                <a href="{% url 'reminder' %}">Забыли пароль?</a>
+                <a href="{% url 'main:reminder' %}">Забыли пароль?</a>
             </div>
             <div class="problems">
-                <a href="{% url 'registration' %}">Еще не зарегистрировались?</a>
+                <a href="{% url 'main:registration' %}">Еще не зарегистрировались?</a>
             </div>
         </div>
     </div>

@@ -16,11 +16,11 @@
     <nav>
         <ul class="header">
             <li>
-                <a class="logo" href="{% url 'index' %}">Материалы COS-COS</a>
+                <a class="logo" href="{% url 'main:index' %}">Материалы COS-COS</a>
             </li>
             <li><input class="search-bar" type="search" placeholder=" я ищу..."><input type="submit"></li>
             <li class="cart"><img src="{% static 'depends/images/cart.jpg' %}" alt="Корзина"></li>
-            <li><a class="account" href="{% url 'authorization' %}">Вход</a></li>
+            <li><a class="account" href="{% url 'main:authorization' %}">Вход</a></li>
         </ul>
     </nav>
 
