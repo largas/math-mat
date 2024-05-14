@@ -11,92 +11,76 @@
         <ul class="filters">
             <li></li>
             <li><button data-f="card" class="filter">Всё</button></li>
-            <li><button data-f="trigonometry" class="filter">Тригонометрия</button></li>
-            <li><button data-f="derivative" class="filter">Производная</button></li>
-            <li><button data-f="log" class="filter">Логарифм</button></li>
+            <li><button data-f="economy" class="filter">Экономика</button></li>
+            <li><button data-f="parameters" class="filter">Параметры</button></li>
             <li><button data-f="collection" class="filter">Подборки задач</button></li>
             <li><button data-f="books" class="filter">Пособия</button></li>
+            <li><button data-f="other" class="filter">Прочее</button></li>
         </ul>
     </nav>
 
     <div class="cards">
 
-        <div class="collection trigonometry card" style="width: 18rem;">
-            <img src="{% static 'depends/images/plug.PNG' %}" class="card-img-top" alt="...">
+        <div class="card collection parameters" style="width: 18rem;">
+            <img src="{% static 'depends/images/products/1.0 Простые задачи с параметром - для index.html.PNG' %}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Подборка задач по тригонометрии</h5>
-                <p class="card-text">Some quick example text content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Простые параметры на ЕГЭ</h5>
+                <p class="card-text">Сборник простых задач с параметрами (с решениями)</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
             </div>
         </div>
 
-        <div class="books log card" style="width: 18rem;">
-            <img src="{% static 'depends/images/plug.PNG' %}" class="card-img-top" alt="...">
+        <div class="card collection parameters" style="width: 18rem;">
+            <img src="{% static 'depends/images/products/2.0 Задачи с параметром из реальных ЕГЭ 2018-2023 гг, сборник задач (с ответами) - для index.html.PNG' %}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Пособие по логарифмам</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk example
-                    text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Задачи с параметрами из реальных ЕГЭ</h5>
+                <p class="card-text">Сборник задач из ЕГЭ 2018-2023 гг. (с решениями)</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
             </div>
         </div>
 
-        <div class="derivative card" style="width: 18rem;">
-            <img src="{% static 'depends/images/plug.PNG' %}" class="card-img-top" alt="...">
+        <div class="card collection economy" style="width: 18rem;">
+            <img src="{% static 'depends/images/products/3.0 Экономические задачи из реальных ЕГЭ 2018-2023 гг, сборник задач (с ответами) - для index.html.PNG' %}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Материал по производной</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Экономические задачи из реальных ЕГЭ</h5>
+                <p class="card-text">Сборник задач из ЕГЭ 2018-2023 гг. (с решениями)</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
             </div>
         </div>
 
-        <div class="trigonometry books card" style="width: 18rem;">
-            <img src="{% static 'depends/images/plug.PNG' %}" class="card-img-top" alt="...">
+        <div class="card collection parameters" style="width: 18rem;">
+            <img src="{% static 'depends/images/products/4.0 Показательные уравнения с параметрами, сборник задач (с ответами) - для index.html.PNG' %}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Пособие по тригонометрии</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Показательные уравнения с параметрами</h5>
+                <p class="card-text">Сборник из 14 уравнений, часть из которых уникальна (с решениями)</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
             </div>
         </div>
 
-        <div class="log card" style="width: 18rem;">
-            <img src="{% static 'depends/images/plug.PNG' %}" class="card-img-top" alt="...">
+        <div class="card collection economy" style="width: 18rem;">
+            <img src="{% static 'depends/images/products/5.0 Экономические задачи ЕГЭ на кредиты с дифференцированной схемой расчета  (с ответами, БЕЗ решений) - для index.html.PNG' %}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Логарифмы</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Экономические задачи на дифференцированные платежи</h5>
+                <p class="card-text">Сборник задач из РЕШУ ЕГЭ, переписанных для уникализации условия</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
             </div>
         </div>
 
-        <div class="derivative books card" style="width: 18rem;">
-            <img src="{% static 'depends/images/plug.PNG' %}" class="card-img-top" alt="...">
+        <div class="card collection parameters" style="width: 18rem;">
+            <img src="{% static 'depends/images/products/6.0 Тригонометрические уравнения с параметром, сборник задач (с ответами) - для index.html.PNG' %}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Пособие по производной</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Тригонометрические уравнения с параметрами</h5>
+                <p class="card-text">Сборник из 26 тригонометрических уравнений с параметрами (с решениями)</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
             </div>
         </div>
 
-        <div class="trigonometry log card" style="width: 18rem;">
-            <img src="{% static 'depends/images/plug.PNG' %}" class="card-img-top" alt="...">
+        <div class="card other" style="width: 18rem;">
+            <img src="{% static 'depends/images/products/7.0 Презентация по теме Векторы на ЕГЭ (2-ая задача) - для index.html.PNG' %}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Тригометрия и логарифм</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-
-        <div class="collection log card" style="width: 18rem;">
-            <img src="{% static 'depends/images/plug.PNG' %}" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Сборник задач по логарифмам</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Векторы (2-ая задача ЕГЭ)</h5>
+                <p class="card-text">Презентация по теме векторы на ЕГЭ, с минимальной теорией и заданиями (с решениями и без)</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
             </div>
         </div>
 
